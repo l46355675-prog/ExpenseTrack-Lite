@@ -28,5 +28,4 @@ Expenses are stored in expense.txt
 The file stays saved even after closing the app
 You can open it anytime inside Termux:
 ’’’cat expense.txt’’’
-# Get your expense
-Download link [ https://payhip.com/b/v1zH5 ]
+If you find this project useful, consider supporting me → https://ko-fi.com/javamaster
