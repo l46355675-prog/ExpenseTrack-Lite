@@ -41,5 +41,5 @@ Q → Exit
 Expenses are stored in expense.txt
 The file stays saved even after closing the app
 You can open it anytime inside Termux:
-’’’cat expense.txt’’’
+```cat expense.txt```
 If you find this project useful, consider supporting me → https://ko-fi.com/javamaster
