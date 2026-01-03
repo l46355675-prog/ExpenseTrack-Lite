@@ -12,12 +12,26 @@ Beginner-friendly Java code
 Lightweight, no external libraries
 Data persists between runs using file storage
 
-# How to use
- Install termux 
- Install java by opening termux and running the commands ’’’pkg update
-pkg install openjdk-17’’’
-Compile the program using ’’’javac expense.java’’’ and finally run it using ’’’java expense’’’
+# How to run (Pc)
 
+1. Compile the file
+```javac TextAnalyzer.java```
+2. Run the program
+```java TextAnalyzer```
+
+# How to run (Android)
+1. Install Termux from play store/app store
+2. Update package
+```pkg update && pkg upgrade```
+3. Install java
+```pkg install openjdk-17```
+4. Allow storage access(First time only)
+```termux-setup-storage```
+5. Navigate to your file location
+```cd ~/storage/downloads```
+6. Compile and run the program
+```javac TextAnalyzer.java```
+```java TextAnalyzer```
 # Using the program
 A → Add an expense (name + amount)
 E → View all expenses and the average
